@@ -27,7 +27,6 @@ jobs:
       - name: zip
         run: |
           sudo apt install zip -y
-          cp manifest.json ./dist/manifest.json
           cd ./dist/
           zip -r ../LLOneBot.zip ./*
 
